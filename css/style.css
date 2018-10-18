@@ -1,0 +1,61 @@
+.navbar-color {
+    background-color: #2c3e50;
+}
+
+.text-color {
+color: white !important;
+font-family: 'Roboto', sans-serif;
+}
+
+.margin-menu { margin-right: 10px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    background-image: url("../img/25.jpg");
+    font-family: 'Caveat Brush', cursive;
+    }
+
+header .header-content {
+    position: relative;
+    width: 100%;
+}
+
+@media (min-width: 200px) {
+
+  header {
+    min-height:100%;
+    text-align: center;
+  }
+
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+    text-align: center;
+    }
+
+  header .header-content .header-content-inner {
+   max-width: auto;
+   margin-left: auto;
+   margin-left: auto;
+   text-align: center;
+  }
+
+h1 { font-size: 500%;
+    text-shadow: black 0.1em 0.1em 0.3em;
+    }
